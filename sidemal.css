@@ -1,0 +1,147 @@
+body{
+    text-align: center;
+    font-family: "Bodoni MT", monospace;
+
+    font-size: large;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    min-height: 100vh;
+}
+h1{
+    font-size: xx-large;
+}
+h2{
+    margin: 0;
+}
+html{
+    background: url("liyue_harbor.png") repeat center center fixed;
+    background-size: cover;
+}
+/*
+Main
+ */
+main{
+     order:2;
+     flex: 4;
+     background: white;
+     overflow: hidden;
+    padding-top: 2%;
+ }
+.mainsection{
+
+    display: inline-flex;
+    flex-direction: row;
+    margin-left: 10%;
+    margin-right: 10%;
+    overflow: auto;
+}
+.innersection{
+    margin-bottom: 10px;
+    display: inline-flex;
+    flex-direction: row;
+    margin-left: 2%;
+    margin-right: 2%;
+
+}
+.halfsection{
+    max-width: 50%;
+    margin:2%;
+}
+img{
+    max-width: 100%;
+}
+.halfsection > h2{
+    margin: 0;
+}
+.thirdsection{
+    width: 33%;
+    margin:2%;
+}
+.grid_layout{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.grid_layout>*{
+    flex: 1 1;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+.card{
+    align-content: center;
+    align-items: center;
+    margin-bottom: 2%;
+    display: inline-flex;
+    flex-direction: column;
+    font-size: large;
+}
+.card >*{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.card > img{
+    max-height: 256px;
+    max-width: 256px;
+}
+.card > a > img{
+    max-height: 256px;
+    max-width: 256px;
+}
+.card > h2{
+    color: midnightblue;
+}
+/*
+Header
+ */
+header{
+    background: #f2d761;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+}
+header > div{
+    margin: 0 3%;
+
+}
+header > div > img{
+    width: 50%;
+    height: auto;
+    min-width: 25%;
+}
+header>div>*{
+}
+/*
+Top Navigation
+ */
+.topnav{
+    display: inline-flex;
+    flex-direction: row;
+
+}
+.topnav > div{
+
+    margin-left: 40%;
+
+}
+
+/*
+Footer
+ */
+footer{
+
+    text-align: left;
+    background: #063c47;
+    bottom: 0;
+    width: 100%;
+    margin-top: auto;
+}
+
+footer >*{
+    margin-top: 0;
+    margin-left: 5%;
+}
