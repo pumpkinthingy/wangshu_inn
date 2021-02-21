@@ -109,9 +109,9 @@ header > div{
 
 }
 header > div > img{
-    width: 50%;
+    width: 20%;
     height: auto;
-    min-width: 25%;
+    min-width: 20%;
 }
 header>div>*{
 }
