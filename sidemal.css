@@ -145,3 +145,7 @@ footer >*{
     margin-top: 0;
     margin-left: 5%;
 }
+.copyright{
+    float: right;
+    color: white;
+}
